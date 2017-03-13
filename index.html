@@ -190,16 +190,28 @@
 					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 					    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 					    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
 					  </ol>
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
-					    <div class="item active" onclick="window.open('demo/index.html')">
+					    <div class="item active" onclick="window.open('demo/rainbow/index.html')">
 					      <img src="images/clock.png">
 					      <div class="program-desc">
 					     	<div>
-					    	  <h4 class="exp-title">CSS3手绘彩虹(2017.2-2017.2)</h4>
-					    	  <h5>自己练习的DEMO，点击查看</h5>
+					    	  <h4 class="exp-title">CSS3手绘彩虹(2016.12-2016.12)</h4>
 					    	  <h5>主要利用css3变换实现旋转，css3动画实现彩虹色彩变换。</h5>
+					    	  <h5>自己练习的DEMO，点击查看</h5>
+					    	</div>
+					      </div>
+					    </div>
+					    <div class="item" onclick="window.open('demo/jscut/index.html')">
+					      <img src="images/jscut.png">
+					      <div class="program-desc">
+					     	<div>
+					    	  <h4 class="exp-title">JS实现图片裁剪(2017.2-2017.2)</h4>
+					    	  <h5>1，练习JS鼠标onmousemove,onmousedown,onmouseup等事件，学习了W3C模型和IE浏览器的事情冒泡和事情捕获。</h5>
+					    	  <h5>2，测试和掌握了js获取元素大小和尺寸的几种方式，clientWidth,scrollWidth,offsetWidth等之间的区别。</h5>
+					    	  <h5>自己练习的DEMO，点击查看</h5>
 					    	</div>
 					      </div>
 					    </div>
@@ -219,7 +231,7 @@
 					    	</div>
 					      </div>
 					    </div>
-					    <div class="item">
+					    <div class="item" onclick="window.open('demo/EBP')">
 					      <img src="images/ebp.png">
 					      <div class="program-desc">
 					     	<div>
@@ -228,11 +240,11 @@
 					    	  	<p><strong class="exp-title">项目架构：</strong>Struts+Spring+Hibernate、B/S
 					    	  	<p><strong class="exp-title">开发环境：</strong>Windows XP、JDK1.6
 					    	  	<p><strong class="exp-title">开发工具：</strong>MyEclipse、MySQL
-					    	  	<p><strong class="exp-title">项目描述：</strong>实时查票订票，生成购买订单。分前端展示和后台管理两个大的模块，用户平台包括用户登录、票项查询、实时定票、订单查询、账户充值等功能，管理平台包括票项管理、用户管理、订单管理等管理员功能。
+					    	  	<p><strong class="exp-title">项目描述：</strong>实时查票订票，生成购买订单。用户平台包括用户登录、票项查询、实时定票、订单查询、账户充值等功能，管理平台包括票项管理、用户管理、订单管理等管理员功能。
 					    	  	<p><strong class="exp-title">责任描述：</strong>
-								<br>1．注册登录：校验用户信息，添加用户，登录认证。
-								<br>2．票项查询：查询7天内可选票项，创建订单项。
-								<br>3．在线定票：订单项查询、更新和删除，订单提交。
+								<br>1．用validate.js实现简单的表单验证，添加用户，登录认证。
+								<br>2．查询7天内可选票项，创建订单项。开始考虑不周，用数组存订单，由于后面涉及结账及订单查询改为中间表。
+								<br>3．订单项CURD，利用HashMap实现，订单提交。
 					    	  </div>
 					    	</div>
 					      </div>
@@ -248,13 +260,14 @@
 					    	  	<p><strong class="exp-title">开发工具：</strong>MyEclipse、MySQL
 					    	  	<p><strong class="exp-title">项目描述：</strong>使用电脑拷贝资料，学习交流的同时也给医院的网络安全带来了隐患，要求禁用科室电脑U口，对于有开通需求的科室准予申请开通。
 					    	  	<p><strong class="exp-title">责任描述：</strong>
-								<br>1．需求分析、表字段设计、建表。
-								<br>2．U口管理：U口申请查询、修改和删除。
+								<br>1．需求分析，主要包含前台申请和后台管理。设计相关的表字段和建表。
+								<br>2．前台页面主要采用bootstrap斑马表格和validate.js实现验证。
+								<br>3．项目最终完成了30多个科室的U口申请功能工作，且方便管理和维护。
 					    	  </div>
 					    	</div>
 					      </div>
 					    </div>
-					    <div class="item">
+					    <div class="item" onclick="window.open('demo/shop')">
 					      <img src="images/shop.png">
 					      <div class="program-desc">
 					     	<div>
@@ -263,10 +276,11 @@
 					    	  	<p><strong class="exp-title">项目架构：</strong>SpringMVC+Mybatis、B/S
 					    	  	<p><strong class="exp-title">开发环境：</strong>Windows XP、JDK1.7
 					    	  	<p><strong class="exp-title">开发工具：</strong>Eclipse EE、MySQL
-					    	  	<p><strong class="exp-title">项目描述：</strong>分前端展示和后台管理两个大的模块，用户平台包括用户登录、商品查询、购买商品、生成订单、在线支付，管理平台包括用户管理、商品管理、订单管理等。
+					    	  	<p><strong class="exp-title">项目描述：</strong>用户平台包括用户登录、商品查询、购买商品、生成订单、在线支付，管理平台包括用户管理、商品管理、订单管理等。
 					    	  	<p><strong class="exp-title">责任描述：</strong>
-								<br>1．商品查询：首页新、热门商品查询、一级和二级分类商品查询。
-								<br>2．商品购买：加入购物车生成订单项，订单提交生成订单。
+					    	  	<br>1．逆向工程生成需要的Mapper以及需要的POJO类。
+								<br>2．首页新、热门商品查询、一级和二级分类商品查询，涉及mybatis一对多映射和懒加载问题。
+								<br>3．购物车CURD，利用HashMap实现，最终包装成PO类插入数据库生成订单。
 					    	  </div>
 					    	</div>
 					      </div>

@@ -233,17 +233,17 @@ a:active{
 /*program*/
 .program-content{
 	width: 55vw;
-	height: 52vh;
+	height: 58vh;
 	margin:0 auto;
 	margin-top: 8vh;
 }
 .carousel{
 	width: 55vw;
-	height: 54vh;
+	height: 58vh;
 }
 .carousel-inner .item{
 	width: 55vw;
-	height: 54vh;
+	height: 58vh;
 }
 .carousel-inner .item img{
 	width: 100%;

@@ -324,6 +324,9 @@ a:active{
 	background-color:#096254;
 	border-radius:5px;
 }
+.contact-pdf:link{
+	color: #9f3;
+}
 .contact-pdf:visited{
 	color: #9f3;
 }
